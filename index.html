@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirado Razafindratandra | Développeur Full Stack à Madagascar</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Mirado Razafindratandra - Développeur Full Stack passionné basé à Antananarivo, Madagascar. Expert en Django, React, React Native, NestJS et Angular. Disponible pour des projets freelance et opportunités d'emploi.">
+    <meta name="keywords" content="développeur full stack, full stack developer, react developer, django developer, madagascar developer, antananarivo, react native, nestjs, angular, développeur web, développeur mobile, freelance developer, Mirado Razafindratandra">
+    <meta name="author" content="Mirado Razafindratandra">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="language" content="French">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mirado-razafindratandra.github.io/portfolio-html/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mirado-razafindratandra.github.io/portfolio-html/">
+    <meta property="og:title" content="Mirado Razafindratandra | Développeur Full Stack">
+    <meta property="og:description" content="Développeur Full Stack passionné basé à Madagascar. Expert en Django, React, React Native et NestJS. Découvrez mon portfolio et mes réalisations.">
+    <meta property="og:image" content="https://mirado-razafindratandra.github.io/portfolio-html/photo.jpg">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Portfolio Mirado Razafindratandra">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mirado-razafindratandra.github.io/portfolio-html/">
+    <meta name="twitter:title" content="Mirado Razafindratandra | Développeur Full Stack">
+    <meta name="twitter:description" content="Développeur Full Stack passionné basé à Madagascar. Expert en Django, React, React Native et NestJS.">
+    <meta name="twitter:image" content="https://mirado-razafindratandra.github.io/portfolio-html/photo.jpg">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mirado Razafindratandra",
+        "url": "https://mirado-razafindratandra.github.io/portfolio-html/",
+        "image": "https://mirado-razafindratandra.github.io/portfolio-html/photo.jpg",
+        "jobTitle": "Développeur Full Stack",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Antananarivo",
+            "addressRegion": "Analamanga",
+            "addressCountry": "Madagascar"
+        },
+        "email": "mirado.fitahiana03@gmail.com",
+        "telephone": "+261345664714",
+        "sameAs": [
+            "https://linkedin.com/in/mirado-razafindratandra",
+            "https://github.com/mirado-razafindratandra"
+        ],
+        "knowsAbout": ["Django", "React", "React Native", "NestJS", "Angular", "Python", "JavaScript", "TypeScript", "PostgreSQL", "MongoDB"],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Université de la Côte d'Azur"
+            },
+            {
+                "@type": "CollegeOrUniversity", 
+                "name": "IT University"
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <link rel="apple-touch-icon" href="photo.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">MR.DEV</div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Sky Background & Cursor are created dynamically by JS -->
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#" class="logo">MR.DEV</a>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <div class="status-indicator">
+                        <span class="status-dot"></span>
+                        <span>Disponible pour de nouvelles opportunités</span>
+                    </div>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="greeting">Bonjour, je suis</span>
+                    <span class="name">Mirado Razafindratandra</span>
+                    <span class="role">Développeur Full Stack</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Jeune développeur Full Stack passionné par le développement logiciel, curieux et motivé. 
+                    J'aime apprendre et relever de nouveaux défis, avec à cœur de progresser constamment 
+                    et de contribuer à des projets utiles, innovants et bien réalisés.
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Voir mes projets
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Me contacter
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number counter" data-target="2">0</span>
+                        <span class="hero-stat-label">Années d'expérience</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number counter" data-target="5">0</span>
+                        <span class="hero-stat-label">Projets réalisés</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number counter" data-target="20">0</span>
+                        <span class="hero-stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <div class="glow-ring"></div>
+                    <div class="hero-image-wrapper">
+                        <img src="1.jpg" alt="Mirado Razafindratandra - Développeur Full Stack">
+                    </div>
+                    <div class="floating-elements">
+                        <div class="float-item float-item-1">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="float-item float-item-2">
+                            <i class="fab fa-python"></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="float-item float-item-3">
+                            <i class="fab fa-node-js"></i>
+                            <span>NestJS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header reveal">
+            <span class="section-tag"><i class="fas fa-user"></i> À propos</span>
+            <h2 class="section-title">Qui suis-je ?</h2>
+            <p class="section-subtitle">Découvrez mon parcours et ma passion pour le développement</p>
+        </div>
+        
+        <div class="about-container">
+            <div class="about-image-card reveal-left">
+                    <img src="photo.jpg" alt="Mirado Razafindratandra">
+                    <div class="about-card-info">
+                        <p class="about-card-name">Mirado Razafindratandra</p>
+                        <p class="about-card-role">Full Stack Developer</p>
+                    </div>
+                <div class="about-stats-grid">
+                    <div class="about-stat-card">
+                        <span class="about-stat-number counter" data-target="2">0</span>
+                        <span class="about-stat-label">Ans d'exp.</span>
+                    </div>
+                    <div class="about-stat-card">
+                        <span class="about-stat-number counter" data-target="5">0</span>
+                        <span class="about-stat-label">Projets</span>
+                    </div>
+                    <div class="about-stat-card">
+                        <span class="about-stat-number counter" data-target="20">0</span>
+                        <span class="about-stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-content reveal-right">
+                <h3>Développeur Full Stack <span>passionné</span></h3>
+                <p class="about-text">
+                    Je suis un jeune développeur Full Stack basé à Antananarivo, Madagascar. 
+                    Passionné par le développement logiciel et curieux de nature, j'aime apprendre 
+                    de nouvelles technologies et relever des défis techniques stimulants.
+                </p>
+                <p class="about-text">
+                    Spécialisé dans les technologies comme Django, React et React Native, 
+                    j'ai eu l'opportunité de travailler sur des projets variés allant de la 
+                    plateforme de recrutement intelligente aux applications mobiles fitness, 
+                    en passant par des systèmes de gestion de transport.
+                </p>
+                
+                <div class="about-highlights stagger-children">
+                    <div class="highlight-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>UI/UX Design</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>Performance</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-lock"></i>
+                        <span>Sécurité</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Mobile First</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-sync-alt"></i>
+                        <span>Méthodologie Agile</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-robot"></i>
+                        <span>IA & Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-header reveal">
+            <span class="section-tag"><i class="fas fa-cogs"></i> Compétences</span>
+            <h2 class="section-title">Mon Stack Technique</h2>
+            <p class="section-subtitle">Les technologies que j'utilise au quotidien</p>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skills-grid stagger-children">
+                <!-- Langages -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="skill-card-title">Langages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+                    </div>
+                </div>
+                
+                <!-- Frameworks -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3 class="skill-card-title">Frameworks</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-python"></i> Django</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React Native</span>
+                        <span class="skill-tag"><i class="fab fa-angular"></i> Angular</span>
+                        <span class="skill-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                        <span class="skill-tag"><i class="fab fa-node-js"></i> NestJS</span>
+                        <span class="skill-tag"><i class="fas fa-graduation-cap"></i> Moodle</span>
+                    </div>
+                </div>
+                
+                <!-- Base de données -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="skill-card-title">Base de données</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-database"></i> Oracle</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQLite</span>
+                    </div>
+                </div>
+                
+                <!-- Outils & DevOps -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="skill-card-title">Outils & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag"><i class="fas fa-code-branch"></i> SonarQube</span>
+                        <span class="skill-tag"><i class="fab fa-jira"></i> Jira</span>
+                        <span class="skill-tag"><i class="fab fa-figma"></i> Figma</span>
+                    </div>
+                </div>
+                
+                <!-- Méthodologies -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="skill-card-title">Méthodologies</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-sync"></i> Scrum</span>
+                        <span class="skill-tag"><i class="fas fa-tasks"></i> Agile</span>
+                        <span class="skill-tag"><i class="fas fa-code-branch"></i> CI/CD</span>
+                    </div>
+                </div>
+                
+                <!-- Systèmes -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="skill-card-title">Systèmes</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-linux"></i> Linux</span>
+                        <span class="skill-tag"><i class="fab fa-windows"></i> Windows</span>
+                        <span class="skill-tag"><i class="fas fa-terminal"></i> Shell</span>
+                        <span class="skill-tag"><i class="fas fa-cloud"></i> Cloud</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-header reveal">
+            <span class="section-tag"><i class="fas fa-briefcase"></i> Portfolio</span>
+            <h2 class="section-title">Mes Projets Récents</h2>
+            <p class="section-subtitle">Une sélection de mes réalisations professionnelles</p>
+        </div>
+        
+        <div class="projects-container">
+            <div class="projects-grid">
+                <!-- Recrut-T -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop" alt="Recrut-T">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Plateforme Web</span>
+                        <h3 class="project-title">Recrut-T</h3>
+                        <p class="project-description">
+                            Plateforme de recrutement intelligente pour la gestion des candidatures 
+                            et le matching automatisé entre recruteurs et candidats.
+                        </p>
+                        <div class="project-tech">
+                            <span>Django</span>
+                            <span>React</span>
+                            <span>PostgreSQL</span>
+                            <span>IA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arise Fitness -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop" alt="Arise Fitness">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Application Mobile</span>
+                        <h3 class="project-title">Arise Fitness</h3>
+                        <p class="project-description">
+                            Application mobile de suivi fitness avec programmes d'entraînement 
+                            personnalisés et suivi de progression.
+                        </p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>NestJS</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Transport Management -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop" alt="Transport Management">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Système de Gestion</span>
+                        <h3 class="project-title">Transport Management</h3>
+                        <p class="project-description">
+                            Système complet de gestion de transport incluant la gestion des véhicules, 
+                            planification des trajets et suivi en temps réel.
+                        </p>
+                        <div class="project-tech">
+                            <span>Django</span>
+                            <span>Angular</span>
+                            <span>Oracle</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haona Soa -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&h=600&fit=crop" alt="Haona Soa">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Plateforme E-learning</span>
+                        <h3 class="project-title">Haona Soa</h3>
+                        <p class="project-description">
+                            Plateforme éducative pour l'association Haona Soa permettant l'apprentissage 
+                            en ligne avec système de cours et suivi des étudiants.
+                        </p>
+                        <div class="project-tech">
+                            <span>Moodle</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-header reveal">
+            <span class="section-tag"><i class="fas fa-briefcase"></i> Parcours</span>
+            <h2 class="section-title">Mon Expérience Professionnelle</h2>
+            <p class="section-subtitle">Mon évolution au sein des entreprises</p>
+        </div>
+        
+        <div class="experience-container">
+            <div class="timeline">
+                <!-- BICI - Arise -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date"><i class="far fa-calendar"></i> Déc 2024 - Présent</span>
+                        </div>
+                        <h3 class="timeline-title">Développeur Full Stack</h3>
+                        <p class="timeline-company"><i class="far fa-building"></i> BICI Madagascar</p>
+                        <div class="timeline-tech">
+                            <span>React Native</span>
+                            <span>NestJS</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Développement de l'application mobile Arise Fitness</li>
+                                <li>Conception et implémentation de l'API REST avec NestJS</li>
+                                <li>Intégration de fonctionnalités de suivi fitness</li>
+                                <li>Gestion de base de données MongoDB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Freelance Recrut-T -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date"><i class="far fa-calendar"></i> Sep 2024 - Nov 2024</span>
+                        </div>
+                        <h3 class="timeline-title">Développeur Freelance</h3>
+                        <p class="timeline-company"><i class="fas fa-laptop-house"></i> Freelance - Recrut-T</p>
+                        <div class="timeline-tech">
+                            <span>Django</span>
+                            <span>React</span>
+                            <span>PostgreSQL</span>
+                            <span>IA</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Développement d'une plateforme de recrutement intelligente</li>
+                                <li>Implémentation d'algorithmes de matching IA</li>
+                                <li>Création d'interfaces utilisateur modernes avec React</li>
+                                <li>Mise en place de tests unitaires et d'intégration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BICI - Transport -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date"><i class="far fa-calendar"></i> Avr 2024 - Août 2024</span>
+                        </div>
+                        <h3 class="timeline-title">Développeur Full Stack (Stage)</h3>
+                        <p class="timeline-company"><i class="far fa-building"></i> BICI Madagascar</p>
+                        <div class="timeline-tech">
+                            <span>Django</span>
+                            <span>Angular</span>
+                            <span>Oracle</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Développement d'un système de gestion de transport</li>
+                                <li>Création de dashboards analytiques interactifs</li>
+                                <li>Mise en place de l'infrastructure Docker</li>
+                                <li>Intégration avec les systèmes Oracle existants</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Association Haona Soa -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date"><i class="far fa-calendar"></i> Jan 2024 - Mars 2024</span>
+                        </div>
+                        <h3 class="timeline-title">Développeur Web (Bénévolat)</h3>
+                        <p class="timeline-company"><i class="fas fa-hands-helping"></i> Association Haona Soa</p>
+                        <div class="timeline-tech">
+                            <span>Moodle</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Développement d'une plateforme e-learning personnalisée</li>
+                                <li>Configuration et personnalisation de Moodle</li>
+                                <li>Formation des utilisateurs à la plateforme</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation Section -->
+    <section class="formation" id="formation">
+        <div class="section-header reveal">
+            <span class="section-tag"><i class="fas fa-graduation-cap"></i> Formation</span>
+            <h2 class="section-title">Mon Parcours Académique</h2>
+            <p class="section-subtitle">Les diplômes qui ont forgé mes compétences</p>
+        </div>
+        
+        <div class="formation-container">
+            <div class="formation-grid">
+                <div class="formation-card reveal">
+                    <div class="formation-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <span class="formation-date">2024 - 2025</span>
+                    <h3 class="formation-title">Master II MBDS - Mobiquité, Big Data et Intégration de Systèmes</h3>
+                    <p class="formation-school"><i class="fas fa-map-marker-alt"></i> Université de la Côte d'Azur (en partenariat)</p>
+                    <p class="formation-description">
+                        Formation avancée en développement logiciel, gestion de bases de données, 
+                        architectures distribuées, Big Data et intégration de systèmes complexes.
+                    </p>
+                </div>
+                
+                <div class="formation-card reveal">
+                    <div class="formation-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <span class="formation-date">2021 - 2024</span>
+                    <h3 class="formation-title">Licence III en Développement</h3>
+                    <p class="formation-school"><i class="fas fa-map-marker-alt"></i> IT University</p>
+                    <p class="formation-description">
+                        Formation complète en développement informatique couvrant les fondamentaux 
+                        de la programmation, le développement web et mobile, ainsi que les bases de données.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages & Interests Section -->
+    <section class="languages-interests" id="languages">
+        <div class="section-header reveal">
+            <span class="section-tag"><i class="fas fa-globe"></i> Langues & Intérêts</span>
+            <h2 class="section-title">Plus sur moi</h2>
+            <p class="section-subtitle">Mes langues parlées et centres d'intérêt</p>
+        </div>
+        
+        <div class="li-container">
+            <div class="li-grid">
+                <div class="li-section reveal-left">
+                    <h3 class="li-section-title">
+                        <i class="fas fa-language"></i>
+                        Langues Parlées
+                    </h3>
+                    <div class="languages-list">
+                        <div class="language-item">
+                            <div class="language-flag">🇲🇬</div>
+                            <div class="language-info">
+                                <h4>Malagasy</h4>
+                                <p>Langue maternelle</p>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-flag">🇫🇷</div>
+                            <div class="language-info">
+                                <h4>Français</h4>
+                                <p>Niveau avancé</p>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-flag">🇬🇧</div>
+                            <div class="language-info">
+                                <h4>Anglais</h4>
+                                <p>Intermédiaire (technique)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="li-section reveal-right">
+                    <h3 class="li-section-title">
+                        <i class="fas fa-heart"></i>
+                        Centres d'Intérêt
+                    </h3>
+                    <div class="interests-list">
+                        <div class="interest-item">
+                            <i class="fas fa-basketball-ball"></i>
+                            <span>Basket-ball</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-guitar"></i>
+                            <span>Guitare</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-book"></i>
+                            <span>Lecture</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-campground"></i>
+                            <span>Scout</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header reveal">
+            <span class="section-tag"><i class="fas fa-envelope"></i> Contact</span>
+            <h2 class="section-title">Travaillons Ensemble</h2>
+            <p class="section-subtitle">Vous avez un projet en tête ? N'hésitez pas à me contacter</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info reveal-left">
+                <h3>Discutons de <span>votre projet</span></h3>
+                <p class="contact-text">
+                    Je suis toujours ouvert à de nouvelles opportunités et collaborations. 
+                    Que ce soit pour un projet freelance, une opportunité d'emploi ou simplement 
+                    pour échanger sur le développement, n'hésitez pas à me contacter !
+                </p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <a href="mailto:mirado.fitahiana03@gmail.com" class="contact-item-text">
+                            mirado.fitahiana03@gmail.com
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <a href="tel:+261345664714" class="contact-item-text">
+                            +261 34 56 647 14
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <span class="contact-item-text">
+                            Antananarivo, Tsimbazaza, Madagascar
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/mirado-razafindratandra" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/mirado-razafindratandra" target="_blank" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/mirado_dev" target="_blank" class="social-link" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://wa.me/261345664714" target="_blank" class="social-link" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact-form-wrapper reveal-right">
+                <form id="contact-form" class="contact-form" action="https://formsubmit.co/mirado.fitahiana03@gmail.com" method="POST">
+                    <!-- FormSubmit Configuration -->
+                    <input type="hidden" name="_subject" value="Nouveau message depuis votre portfolio !">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" name="_honey" style="display:none">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Décrivez votre projet ou votre demande..." rows="5" required></textarea>
+                    </div>
+                    
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Envoyer le message
+                        </button>
+                    </div>
+                    
+                    <div id="form-status" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Mirado Razafindratandra. Tous droits réservés. 
+            Créé avec <i class="fas fa-heart"></i> et beaucoup de <i class="fas fa-coffee"></i>
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

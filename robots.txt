@@ -1,0 +1,30 @@
+# robots.txt pour le portfolio de Mirado Razafindratandra
+# https://mirado-razafindratandra.github.io/portfolio-html/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mirado-razafindratandra.github.io/portfolio-html/sitemap.xml
+
+# Permettre l'indexation par tous les moteurs de recherche
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Fichiers à ne pas indexer (aucun pour l'instant)
+# Disallow: /private/
